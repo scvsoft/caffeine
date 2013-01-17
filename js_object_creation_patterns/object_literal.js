@@ -7,7 +7,7 @@ var configuration = {
   resize: function(width, height) {
     if (this.allowResize) {
       this.width = width;
-      this.height: height;
+      this.height = height;
     }
   }
 };
