@@ -1,0 +1,6 @@
+- Ejemplo de listenTo (LISTO)
+- Ejemplo de layout y regions (LISTO)
+- Ejemplo de model binder (live coding?) (LISTO)
+- Ejemplo de controller (LISTO)
+- Ejemplo de bootstrapping
+- Transformacion de una app con estas practicas?
