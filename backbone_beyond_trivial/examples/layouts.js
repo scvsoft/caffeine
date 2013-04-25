@@ -11,7 +11,7 @@ var PostRowView = Backbone.Marionette.ItemView.extend({
 
   _showPost: function(ev) {
     ev.preventDefault();
-    this.trigger('show', this.model);
+    this.trigger('showPost', this.model);
   }
 });
 
@@ -68,7 +68,7 @@ layout.content.show(postsView);
 layout.sidebar.show(sidebarView);
 
 // Wire up events
-postsView.on('itemview:show', function(view, post) {
+postsView.on('itemview:showPost', function(view, post) {
   layout.content.show(new PostView({ model: post }));
 });
 sidebarView.on('backToPosts', function() {
